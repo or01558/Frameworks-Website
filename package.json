@@ -1,5 +1,5 @@
 {
-  "name": "nodejs",
+  "name": "frameworks-website",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -11,7 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@replit/database": "^2.0.2",
     "@types/node": "^18.0.6",
     "body-parser": "^1.20.1",
     "cors": "^2.8.5",
