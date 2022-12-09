@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  </head>
+  
+  <body>
+      <form action="/register" method="POST">
+        <label for="email">Email:</label>
+       <input type="email" id="email" name="email" value="<%= locals.email %>"/>
+       <label for="username">Username:</label>
+       <input type="text" id="username" name="username" value="<%= locals.username %>"/>
+       <label for="password">Password:</label>
+       <input type="password" id="password" name="password" value="<%= locals.password %>"/>
+       <input type="submit" value="Register"/>
+      </form>
+
+<% if (locals.message) { %>
+   console.log(`Message is ${locals.message}`)
+ <% } %>
+     
+  </body>
+</html>
